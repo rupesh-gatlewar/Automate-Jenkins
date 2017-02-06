@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite-one">
+	<test name="test-one">
+		<classes>
+			<class name="com.test.scripts.ClassOneTest" />
+		</classes>
+	</test>
+</suite>
