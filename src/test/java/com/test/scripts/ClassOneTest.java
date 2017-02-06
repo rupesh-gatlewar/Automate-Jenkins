@@ -20,7 +20,7 @@ public class ClassOneTest {
 		a.moveToElement(driver.findElement(By.cssSelector("#nav-link-yourAccount"))).build().perform();
 		driver.findElement(By.xpath("//span[contains(.,'Sign in')]")).click();
 		driver.findElement(By.id("ap_email")).sendKeys("grk541@gmail.com");
-		driver.findElement(By.id("ap_email")).sendKeys("Amazon@1");
+		driver.findElement(By.id("ap_password")).sendKeys("Amazon@1");
 		driver.findElement(By.id("signInSubmit")).click();
 		driver.quit();
 	}
